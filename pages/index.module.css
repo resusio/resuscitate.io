@@ -1,0 +1,44 @@
+.title {
+  font-size: 5rem;
+  font-weight: 200;
+
+  margin-bottom: 1.5rem;
+
+  text-align: center;
+}
+
+.titleDropLetter {
+  position: relative;
+  top: 0.64rem;
+  height: 6rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 800;
+
+  margin-top: 2rem;
+
+  text-align: center;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  border: 0px solid red;
+}
+
+.flexContent {
+  border: 0px solid blue;
+}
+
+.ecgDiv {
+  height: 32px;
+  width: 100%;
+}
