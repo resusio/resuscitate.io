@@ -44,6 +44,42 @@
   width: 100%;
 }
 
+.buttonContainer {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.button {
+  background-color: #D8DEE9;
+
+  border: 2px solid #2E3440;
+  border-radius: 1000px;
+
+  margin: 0 1rem;
+  padding: 0.5rem 2rem;
+
+  font-size: 1.15rem;
+  color: #2E3440;
+
+  outline: none;
+  background-clip: padding-box;
+}
+
+.button:hover:not(.buttonDisabled) {
+  background-color: #A3BE8C; 
+  border: 2px solid darken(#A3BE8C, 30%);
+}
+
+.buttonDisabled {
+  background-color: #D8DEE9;
+  color: lighten(#2E3440, 30%);
+}
+
+.button small {
+  font-size: x-small;
+  font-style: italic;
+}
+
 @media only screen and (max-width: 600px) {
   .flexContent {
     

@@ -1,6 +1,7 @@
 import Head from 'next/head'
+import Link from 'next/link';
 
-import styles from './index.module.css';
+import styles from './index.module.scss';
 
 export default function Home() {
   return (
@@ -29,6 +30,10 @@ export default function Home() {
             <h2 className={styles.subtitle}>
               Medical simulation, anywhere
             </h2>
+            <div className={styles.buttonContainer}>
+              <a className={styles.button} href="https://simlab.resuscitate.io">SimLab 🧪</a>
+              <a className={`${styles.button} ${styles.buttonDisabled}`}>SimResus 🚧</a>
+            </div>
           </div>
         </div>
       </main>
